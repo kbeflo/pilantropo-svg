@@ -27,4 +27,25 @@ anime({
   },
   direction: "normal",
   delay: "1000"
+}),
+
+anime({
+  targets: "#one .lines path",
+  fill: ["#fe0067", "#fff"],
+  direction: "reverse",
+  duration: 1000
+})
+
+anime({
+  targets: "#two .lines path",
+  fill: ["#fe0067", "#fff"],
+  direction: "reverse",
+  duration: 1500
+})
+
+anime({
+  targets: "#three .lines path",
+  fill: ["#fe0067", "#fff"],
+  direction: "reverse",
+  duration: 2000
 })
